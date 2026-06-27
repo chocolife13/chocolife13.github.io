@@ -1,0 +1,44 @@
+html{
+    background-color: rgb(223, 153, 22);
+    color: rgb(247, 208, 134);
+    text-align: center; 
+    background-image: url("assets/emoji_cool.png");
+}
+
+
+
+.image{
+        
+    height: 350px;
+}
+
+a{
+    color: rgb(247, 208, 134);
+
+}
+
+
+
+
+nav{
+    text-align: center; 
+    background-color: rgb(78, 45, 15);
+    font-size: 30px;
+    margin: -8px;
+    
+}
+
+
+footer {
+    display: flex;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	justify-content: center; 
+    gap: 150px;
+}
+
+
+.social {
+    height: 70px;
+}
