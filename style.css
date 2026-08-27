@@ -1,0 +1,61 @@
+body {
+    font-family: "comic-relief";
+    color: rgb(25, 25, 165);
+    background-image: url("assets/materialdictionary206_200.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed
+}
+
+
+@font-face {
+    font-family: "comic-relief";
+    src: url("ComicRelief-Regular.ttf");
+
+}
+
+.header{
+    /* position and size */
+    position: fixed;
+    top: 0;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* style */
+    backdrop-filter: blur(7px);
+    z-index: 1000;
+    background-color: #00000049;
+    border-radius: 300px;
+    text-align: center;
+}
+
+
+.window {
+    /* position and size */
+    margin-top: 67px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+    /* style*/
+    background-color: #00000049;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0);
+    backdrop-filter: blur(7px);
+
+    /* in window */
+    padding-left: 20px;
+    padding-top: 1px;
+    
+}
+body {
+    color: white;
+}
+
+a:hover{
+    filter: brightness(1.3);
+    filter: drop-shadow(0 0 10px rgba(143, 205, 255, 0.8));
+}
