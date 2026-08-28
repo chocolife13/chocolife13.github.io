@@ -7,11 +7,13 @@ body {
      1px -1px 0 #000,
     -1px  1px 0 #000,
      1px  1px 0 #000;
-    background-image: url("/assets/windows_vista_50.jpg");
+    background-image: url("/assets/bg/windows_vista_50.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
-    background-attachment: fixed
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
 }
 
 ::selection {
@@ -52,9 +54,7 @@ body {
     margin-top: 67px;
     margin-bottom: 67px;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
+    width: 74%;
 
     /* style*/
     /* background-color: #00000049; */
@@ -73,6 +73,24 @@ body {
     padding-top: 1px;
     
 }
+
+
+
+.left{
+    margin-top: 100px;
+    text-align: center;
+    height: auto;
+    width: 12.5%;
+}
+
+.right{
+    margin-top: 100px;
+    text-align: center;
+    height: auto;
+    width: 12.5%;
+}
+
+
 body {
     color: white;
 }
