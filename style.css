@@ -23,7 +23,7 @@ body {
 
 @font-face {
     font-family: "comic-relief";
-    src: url("ComicRelief-Regular.ttf");
+    src: url("assets/font/ComicRelief-Regular.ttf");
 
 }
 
@@ -53,7 +53,7 @@ body {
     /* position and size */
     margin-top: 67px;
     margin-bottom: 67px;
-    height: 2000px;
+    height: auto;
     width: 74%;
 
     /* style*/
@@ -91,6 +91,12 @@ body {
 }
 
 
+p{
+    margin: 0px;
+}
+
+
+
 body {
     color: white;
 }
@@ -98,4 +104,14 @@ body {
 a:hover{
     filter: brightness(1.3);
     filter: drop-shadow(0 0 10px rgba(143, 205, 255, 0.8));
+}
+
+
+button:hover{
+    color: white;
+    background-color: red;
+}
+
+a{
+    color: rgb(0, 255, 255);
 }

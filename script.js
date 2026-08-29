@@ -1,10 +1,14 @@
 const bg = new Audio('assets/duvet.m4a')
+bg.volume = 0.1;
+bg.play();
 function music(){
     bg.pause();
     bg.volume = 0.1;
     bg.play();
+    const element = document.querySelector('.music');
+    element.remove();
 }
-music(); 
+
 
 const hoverSound = new Audio('/assets/tik.wav');
 hoverSound.volume = 1;
@@ -29,3 +33,7 @@ const ageDate = new Date(diffMs);
 const age = Math.abs(ageDate.getUTCFullYear() - 1970);
 
 document.getElementById('year').textContent = age;
+
+
+
+
